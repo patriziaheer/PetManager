@@ -163,5 +163,10 @@ public class Person extends Observable implements ActiveRecord {
 		// TODO Auto-generated method stub
 		return super.hashCode();
 	}
+	
+	public void test() {
+		String t = "test";
+		t.toCharArray();
+	}
 
 }
