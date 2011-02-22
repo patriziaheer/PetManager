@@ -11,6 +11,12 @@ import persistence.ActiveRecord;
 
 public class Person extends Observable implements ActiveRecord {
 
+	/**
+	 * @attributes
+	 * String name, job
+	 * int id
+	 * List<Pet> pets
+	 */
 	public String name, job;
 	private int id = NOTINDB;
 	private List<Pet> pets;
