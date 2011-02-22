@@ -12,7 +12,7 @@ import javax.swing.SwingUtilities;
 import persistence.ActiveRecordManager;
 import ui.ListUpdate;
 import ui.PetManagerFrame;
-import ui.StatisticWindow;
+import ui.StatisticsWindow;
 import domain.Person;
 
 public class PetManager extends Observable {
@@ -80,7 +80,7 @@ public class PetManager extends Observable {
 				PetManagerFrame editView = new PetManagerFrame(application);
 				editView.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				editView.setVisible(true);
-				StatisticWindow toolbar = new StatisticWindow(editView, application);
+				StatisticsWindow toolbar = new StatisticsWindow(editView, application);
 				toolbar.setVisible(true);
 
 				editView.setLocation(100, 100);
