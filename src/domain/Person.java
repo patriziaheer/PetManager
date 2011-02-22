@@ -9,6 +9,12 @@ import java.util.Observable;
 import persistence.ActiveRecordManager;
 import persistence.ActiveRecord;
 
+/**
+ * 
+ * @author patriziaheer
+ *
+ */
+
 public class Person extends Observable implements ActiveRecord {
 
 	/**
