@@ -31,7 +31,7 @@ import applications.PetManager;
  * PURCHASED FOR THIS MACHINE, SO JIGLOO OR THIS CODE CANNOT BE USED LEGALLY FOR
  * ANY CORPORATE OR COMMERCIAL PURPOSE.
  */
-public class StatisticsWindow extends JWindow implements Observer {
+public class StatisticWindow extends JWindow implements Observer {
 
 	private static final long serialVersionUID = 1L;
 	private JLabel titleLabel;
@@ -46,7 +46,7 @@ public class StatisticsWindow extends JWindow implements Observer {
 	/**
 	 * This is the default constructor
 	 */
-	public StatisticsWindow(PetManagerFrame mainFrame, PetManager application) {
+	public StatisticWindow(PetManagerFrame mainFrame, PetManager application) {
 		super();
 		this.application = application;
 		this.mainFrame = mainFrame;
