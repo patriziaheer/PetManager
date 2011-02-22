@@ -163,5 +163,16 @@ public class Person extends Observable implements ActiveRecord {
 			}
 		}
 	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+	
+	public void test() {
+		String t = "test";
+		t.toCharArray();
+	}
 
 }
